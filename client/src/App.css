@@ -1,0 +1,23 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app{
+    width: 100%;
+}
+
+.black-btn{
+   @apply rounded-full border font-poppins border-black bg-black
+    px-4 text-sm text-center justify-center text-white transition-all 
+   hover:bg-white hover:text-black md:px-5 py-2.5;
+}
+.black-btn-submit{
+    @apply  border border-black font-poppins bg-black py-2.5 px-5 text-2xl text-white transition-all hover:bg-white hover:text-black;
+ }
+.blog-content{
+    @apply bg-white w-full  p-4 font-poppins
+}
+.black-btn-edit{
+    @apply border px-2 py-1 rounded border-black font-poppins bg-black text-white  transition-all hover:bg-white hover:text-black
+}
